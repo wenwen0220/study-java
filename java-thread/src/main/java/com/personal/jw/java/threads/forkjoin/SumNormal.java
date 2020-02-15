@@ -8,15 +8,15 @@ import com.personal.jw.java.threads.util.SleepTools;
  */
 public class SumNormal {
     public static void main(String[] args) {
-        long start=System.currentTimeMillis();
-        int[] x=MakeArray.makeArray();
-        long count=0;
-        for(int i :x){
+        long start = System.currentTimeMillis();
+        int[] x = MakeArray.makeArray();
+        long count = 0;
+        for (int i : x) {
             SleepTools.sleep(1);
-            count+=i;
+            count += i;
         }
-        System.out.println("result is :"+count);
-        System.out.println("spend time:"+(System.currentTimeMillis()-start));
+        System.out.println("result is :" + count);
+        System.out.println("spend time:" + (System.currentTimeMillis() - start));
 //        spend time:4902
     }
 }

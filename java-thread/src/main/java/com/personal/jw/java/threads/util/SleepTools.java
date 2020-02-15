@@ -5,7 +5,7 @@ package com.personal.jw.java.threads.util;
  * Describe
  */
 public class SleepTools {
-    public static void sleep(long x){
+    public static void sleep(long x) {
         try {
             Thread.sleep(x);
         } catch (InterruptedException e) {
