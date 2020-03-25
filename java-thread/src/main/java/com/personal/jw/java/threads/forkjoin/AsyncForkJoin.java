@@ -44,7 +44,6 @@ public class AsyncForkJoin {
 
         }
 
-        ;
     }
 
     public static void main(String[] args) {
