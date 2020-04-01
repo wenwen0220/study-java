@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8c42aed-4a33-4eb5-a830-2b872c4d74a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/FokJoinListAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/ApplicationContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/CallTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/TestDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/ThreadPoolWrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/AsyncForkJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/AsyncForkJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/MakeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/MakeArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,62 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseCountDownLatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/AsyncForkJoin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="53" />
-              <folding>
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/ForkJoinSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/FokJoinListAdd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/MakeArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/SumNormal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="260">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -89,8 +40,89 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/future/FutureDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="195">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#732#741#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="998">
+              <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/ThreadPoolWrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/TestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/TestDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/ApplicationContextUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/CallTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseExchage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -98,22 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/semaphore/DbPoolSemaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/JavaThreadApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -124,6 +142,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -151,7 +170,6 @@
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/semaphore/DbPoolSemaphore.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseExchage.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/future/FutureDemo.java" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseCountDownLatch.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/cas/AutomicIntegerDemo.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/cas/AtomicIntegerDemo.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/spring/Person.java" />
@@ -177,10 +195,19 @@
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/spring/aop/config/AopMainConfig.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/spring/annotation/config/CustomImportBeanDefinitionRegistrar.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/ForkJoinSum.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/AsyncForkJoin.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/MakeArray.java" />
         <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/FokJoinListAdd.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/ForkJoinSum.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseCountDownLatch.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseThreadPool.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/ThreadPoolWrap.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/TestDao.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/PoliceAreaAmounntAlarmServiceImpl.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/GetPoliceAmountThread.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/ApplicationContextUtil.java" />
+        <option value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/CallTask.java" />
       </list>
     </option>
   </component>
@@ -259,40 +286,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="forkjoin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java" type="462c0819:PsiDirectoryNode" />
-              <item name="java-thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="future" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java" type="462c0819:PsiDirectoryNode" />
-              <item name="java-thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="semaphore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study-java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study-java" type="462c0819:PsiDirectoryNode" />
-              <item name="java-thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="ImportDao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study-java" type="b2602c69:ProjectViewProjectNode" />
@@ -348,7 +342,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -362,6 +356,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.personal.jw.java.threads.ImportDao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -374,20 +376,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FokJoinListAdd">
-    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.personal.jw.java.cas.AtomicIntegerDemo" />
-      <module name="java-thread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.personal.jw.java.cas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UseThreadPool">
     <configuration name="FokJoinListAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.personal.jw.java.threads.forkjoin.FokJoinListAdd" />
       <module name="java-thread" />
@@ -401,12 +390,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.personal.jw.java.threads.future.FutureDemo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.personal.jw.java.spring.annotation.Test" />
       <module name="java-thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.personal.jw.java.threads.future.*" />
+          <option name="PATTERN" value="com.personal.jw.java.spring.annotation.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,12 +403,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.personal.jw.java.spring.annotation.Test" />
+    <configuration name="UseCountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.personal.jw.java.threads.UseCountDownLatch" />
       <module name="java-thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.personal.jw.java.spring.annotation.config.*" />
+          <option name="PATTERN" value="com.personal.jw.java.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.personal.jw.java.threads.UseThreadPool" />
+      <module name="java-thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.personal.jw.java.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -449,11 +451,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseThreadPool" />
+        <item itemvalue="Application.UseCountDownLatch" />
         <item itemvalue="Application.FokJoinListAdd" />
         <item itemvalue="Application.aopTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.AtomicIntegerDemo" />
-        <item itemvalue="Application.FutureDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -477,20 +479,21 @@
       <workItem from="1580298950117" duration="12528000" />
       <workItem from="1581042707947" duration="2513000" />
       <workItem from="1581048387451" duration="36366000" />
-      <workItem from="1585056467105" duration="5600000" />
+      <workItem from="1585056467105" duration="5853000" />
+      <workItem from="1585727185725" duration="5306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84857000" />
+    <option name="totallyTimeSpent" value="90416000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="23" width="1373" height="812" extended-state="1" />
+    <frame x="67" y="23" width="1373" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="JavaEE:App" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.74825174" visible="true" weight="0.1878287" />
-      <window_info id="Structure" order="2" sideWeight="0.25174826" side_tool="true" visible="true" weight="0.1878287" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.7433265" visible="true" weight="0.3456048" />
+      <window_info id="Structure" order="2" sideWeight="0.2566735" side_tool="true" visible="true" weight="0.3456048" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -498,7 +501,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20555556" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3236111" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -506,7 +509,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.12638889" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.0875" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32916668" />
@@ -529,59 +532,6 @@
     <SUITE FILE_PATH="coverage/study_java$JavaThreadApplication.ic" NAME="JavaThreadApplication Coverage Results" MODIFIED="1581564374696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.1.RELEASE/spring-context-5.2.1.RELEASE.jar!/org/springframework/context/annotation/ImportBeanDefinitionRegistrar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.jar!/org/springframework/aop/config/AopConfigUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar!/org/springframework/beans/factory/BeanFactoryAware.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/spring/aop/app/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar!/org/springframework/beans/factory/config/SingletonBeanRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-839">
-          <caret line="17" column="68" lean-forward="true" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -789,31 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseCountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseCyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseExchage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -824,26 +753,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/JavaThreadApplication.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/AsyncForkJoin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="270">
           <caret line="24" column="53" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="53" />
           <folding>
             <element signature="e#460#461#0" expanded="true" />
             <element signature="e#500#501#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/ForkJoinSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/FokJoinListAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/MakeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -854,41 +802,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/future/FutureDemo.java">
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/JavaThreadApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/semaphore/DbPoolSemaphore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="330">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/ForkJoinSum.java">
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseCountDownLatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+        <state relative-caret-position="260">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/MakeArray.java">
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/future/FutureDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="195">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#732#741#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/forkjoin/FokJoinListAdd.java">
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseExchage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="110">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/UseThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="998">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/PoliceAreaAmounntAlarmServiceImpl2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/ApplicationContextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/TestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/ThreadPoolWrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-thread/src/main/java/com/personal/jw/java/threads/ImportDao/CallTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
